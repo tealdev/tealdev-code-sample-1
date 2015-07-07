@@ -1,0 +1,52 @@
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  display: block;
+}
+body {
+  background-position: center top;
+  background-image: url(big_h1000.jpg);
+  background-size: cover;
+}
+header.top {
+  background-image: url(header_w1200.jpg);
+  height: 300px;
+  font-family: 'Inconsolata';
+}
+header h1 {
+  /*  color: aliceblue; */
+}
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+}
+footer {
+  margin-top: 2em;
+}
+.container {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+}
+.top-nav {
+  font-size: 3.2em;
+  font-family: 'Josefin Slab', serif;
+}
+.top-nav li {
+  margin-top: 0.7em;
+}
+.top-nav li :hover,
+.top-nav li :active {
+  font-size: 1.2em;
+}
+.main-content {
+  padding-top: 1.2em;
+}
+@media (max-width: 500px) {
+  .top-nav {
+    font-size: 2em;
+  }
+}
